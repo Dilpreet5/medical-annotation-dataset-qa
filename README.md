@@ -148,14 +148,42 @@ This folder contains example medical images, annotation files, and verification 
 
 ## Screenshots
 
-Project screenshots include:
+### Dataset Collection
 
-* Dataset collection
-* YOLO annotation generation
-* Label verification process
-* Project folder structure
+#### Chest X-ray Dataset
+![Chest Dataset](screenshots/dataset_collection/chest_dataset.png)
+
+#### Skin Lesion Dataset
+![Skin Dataset](screenshots/dataset_collection/skin_dataset.png)
 
 ---
+
+### YOLO Annotation Generation
+
+#### Chest YOLO Labels
+![Chest Labels](screenshots/auto_labeling/chest_yolo_labels.png)
+
+#### Skin YOLO Labels
+![Skin Labels](screenshots/auto_labeling/skin_yolo_labels.png)
+
+#### Label Generation Script
+![YOLO Script](screenshots/auto_labeling/generate_yolo_labels_script.png)
+
+---
+
+### Quality Verification
+
+#### Chest Verification
+![Chest Verification](screenshots/quality_verification/chest_verification.png)
+
+#### Skin Verification
+![Skin Verification](screenshots/quality_verification/skin_verification.png)
+
+---
+
+### Project Structure
+
+![Project Structure](screenshots/project_structure/project_structure.png)
 
 ## Future Work
 
