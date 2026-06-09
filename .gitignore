@@ -1,0 +1,6 @@
+dataset_backup/
+annotations_backup/
+verified_annotations_backup/
+
+__pycache__/
+*.pyc
