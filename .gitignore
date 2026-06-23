@@ -1,25 +1,26 @@
+# Virtual Environment
 venv/
+
+# Python Cache
 __pycache__/
 *.pyc
 
+# Annotation Files
 annotations/
-verified_annotations/
 
+# Large Bone Training Dataset
 dataset/bone/train/
 dataset/bone/valid/
 dataset/bone/test/
 
-dataset/chest/
-dataset/skin/
-
-verified_normal_chest/
+# Backup Folders
 dataset_backup/
 annotations_backup/
 verified_annotations_backup/
 
-dataset/bone/*.jpg
-dataset/bone/*.jpeg
-dataset/bone/*.png
-dataset/bone/*.webp
-
+# Extra Generated Folder
 verified_normal_chest/
+
+# Full Dataset Backups
+dataset_full/
+verified_full/
