@@ -5,8 +5,6 @@ venv/
 __pycache__/
 *.pyc
 
-# Annotation Files
-annotations/
 
 # Large Bone Training Dataset
 dataset/bone/train/
@@ -24,3 +22,15 @@ verified_normal_chest/
 # Full Dataset Backups
 dataset_full/
 verified_full/
+# local backups / extras not needed online
+annotations_full/
+dataset_full/
+verified_full/
+annotations_backup/
+dataset_backup/
+verified_annotations_backup/
+verified_normal_chest/
+bone_subset/
+sample_dataset/
+screenshots/
+python_pipeline/

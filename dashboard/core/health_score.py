@@ -17,7 +17,7 @@ def calculate_health_score():
         count = len(validate_dataset())
         score -= 3 * count
         
-    return score
+    return max(0, score)
 
 
 def get_health_status(score):           #Health Status based on health score
